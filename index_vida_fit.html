@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vida Fit em 21 Dias</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+<style>
+    body {
+        font-family: 'Montserrat', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+        color: #333;
+    }
+    header {
+        background-color: #2E8B57;
+        color: white;
+        padding: 20px 10%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+    header h1 {
+        margin: 0;
+        font-size: 24px;
+    }
+    nav a {
+        color: white;
+        margin-left: 20px;
+        text-decoration: none;
+        font-weight: 700;
+    }
+    .hero {
+        background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1599058917211-45e8d083d1a0?auto=format&fit=crop&w=1350&q=80') no-repeat center center;
+        background-size: cover;
+        text-align: center;
+        padding: 100px 10%;
+        color: white;
+    }
+    .hero h2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .hero p {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .hero a {
+        background-color: #FFD700;
+        color: #2E8B57;
+        padding: 15px 40px;
+        text-decoration: none;
+        font-size: 18px;
+        border-radius: 50px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+    .hero a:hover {
+        background-color: #FFC107;
+    }
+    section {
+        padding: 60px 10%;
+    }
+    section h3 {
+        font-size: 32px;
+        color: #2E8B57;
+        margin-bottom: 20px;
+    }
+    .benefits {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .benefit {
+        background-color: white;
+        flex: 1 1 250px;
+        padding: 30px 20px;
+        border-radius: 15px;
+        text-align: center;
+        box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+        transition: 0.3s;
+    }
+    .benefit:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+    .benefit h4 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .cta-section {
+        text-align: center;
+        background-color: #2E8B57;
+        color: white;
+        padding: 80px 10%;
+    }
+    .cta-section a {
+        background-color: #FFD700;
+        color: #2E8B57;
+        padding: 25px 50px;
+        text-decoration: none;
+        font-size: 22px;
+        border-radius: 50px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+    .cta-section a:hover {
+        background-color: #FFC107;
+    }
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 40px 10%;
+    }
+    footer a {
+        color: #FFD700;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+    .depoimentos p {
+        background-color: #e0f2f1;
+        padding: 20px;
+        border-radius: 15px;
+        margin-bottom: 20px;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Vida Fit em 21 Dias</h1>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#beneficios">Benefícios</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#comprar">Comprar</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Transforme seu corpo e mente em apenas 21 dias!</h2>
+    <p>Exercícios simples, receitas saudáveis e hábitos de bem-estar que cabem na sua rotina diária.</p>
+    <a href="#comprar">Quero Meu E-book</a>
+</section>
+
+<section id="sobre">
+    <h3>Sobre o E-book</h3>
+    <p>O e-book "Vida Fit em 21 Dias" oferece um plano completo de saúde, bem-estar e fitness, com exercícios para fazer em casa, receitas saudáveis, hábitos diários e técnicas para melhorar seu sono e reduzir estresse. Ideal para quem busca resultados reais em 3 semanas!</p>
+</section>
+
+<section id="beneficios">
+    <h3>Benefícios</h3>
+    <div class="benefits">
+        <div class="benefit">
+            <h4>💪 Mais Energia</h4>
+            <p>Ganhe força e disposição para o seu dia a dia.</p>
+        </div>
+        <div class="benefit">
+            <h4>🥗 Alimentação Saudável</h4>
+            <p>Receitas simples e nutritivas que fortalecem corpo e mente.</p>
+        </div>
+        <div class="benefit">
+            <h4>🧘‍♀️ Bem-Estar Mental</h4>
+            <p>Reduza estresse e ansiedade com técnicas práticas.</p>
+        </div>
+        <div class="benefit">
+            <h4>🏡 Treine em Casa</h4>
+            <p>Exercícios fáceis e eficazes sem precisar de academia.</p>
+        </div>
+    </div>
+</section>
+
+<section id="depoimentos" class="depoimentos">
+    <h3>Depoimentos</h3>
+    <p>“Seguindo o e-book, consegui me sentir mais leve e com mais energia em apenas 2 semanas!” – Maria, 28 anos</p>
+    <p>“As receitas são fáceis e deliciosas, e os exercícios cabem na minha rotina corrida.” – João, 35 anos</p>
+</section>
+
+<section class="cta-section" id="comprar">
+    <h3>Comece sua transformação hoje mesmo!</h3>
+    <a href="https://linkdopagamento.com">Comprar Agora por R$39,90</a>
+</section>
+
+<footer>
+    <p>Contato: <a href="https://wa.me/seunumerodowhatsapp">WhatsApp</a> | Redes sociais: <a href="#">Instagram</a> | <a href="#">TikTok</a></p>
+    <p>© 2025 Vida Fit em 21 Dias. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
